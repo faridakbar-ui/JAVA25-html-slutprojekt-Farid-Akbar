@@ -1,0 +1,46 @@
+:root{
+--font-main: 'Segoe UI', sans-serif;
+  --color-bg: #ffffff;
+  --color-text: #222;
+  --color-accent: #4385cc;
+}
+
+body {
+    font-family: var(--font-main);
+    background-color: var(--color-bg);
+    color: var(--color-text);
+    line-height: 1.6;
+}
+   
+
+
+/* navbar */
+nav ul
+{
+    list-style: none;
+    background-color: #222;
+    padding: 10px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+    transition: color 0.8s ease;
+
+}
+
+nav a:hover{
+    color: var(--color-accent);
+}
+¨
+
+footer{
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
